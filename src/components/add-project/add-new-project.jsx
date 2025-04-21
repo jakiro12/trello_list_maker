@@ -111,7 +111,7 @@ export default function AddNewProject({newProjectData,setCurrentProjectData,onFo
                 </select>
             </div>
             <div className='add-project_form_sections_submit'>
-                <button type="submit">Crear Proyecto</button>
+                <button type="submit">Crear proyecto</button>
             </div>
         </form>
     </section>

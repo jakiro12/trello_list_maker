@@ -79,8 +79,6 @@
 .nav-bar_section-landing > button{
     width: 132px;
     height: 40px;
-    color: white;
-    background-color: red;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -416,8 +414,6 @@
 .add-project_form_sections_submit > button{
     width: 132px;
     height: 40px;
-    color: white;
-    background-color: red;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -578,8 +574,8 @@
     z-index: 2;
     width: 100%;
     height: 100%;
-    top:50%;
-    left: 50%; 
+    top:150px;
+    left: 80%; 
     transform: translate(-50%,-50%);
     display: flex;
     justify-content: center;
@@ -587,8 +583,8 @@
     background-color: rgba(0, 0, 0, 0.103);
 }
 .modal_successful-add > div{
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 150px;
     border-radius: 10px;
     background-color: var(--bg-navbar-color);
     display: grid;
@@ -597,14 +593,14 @@
     box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.504);
 }
 .modal_successful-add > div > span {
-    width: 95%;
+    width: 90%;
     height: fit-content;
     text-align: center;
     font-family: "Newsreader", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 20px;
+    font-size: 16px;
 }
 .general_user_information-container{
     width: 90%;

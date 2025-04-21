@@ -29,7 +29,7 @@ export default function NavBarForOptions({setActionType, typeAction}){
                     <p>Proyectos Actuales</p>
                     <button
                         onClick={()=>setActionType('add')}
-                    >+ Asignar Proyecto</button>
+                    >Nuevo Proyecto</button>
                 </aside>:
                 <aside className='nav-bar_section-add'>
                     <button
