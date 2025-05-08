@@ -14,7 +14,7 @@ export default function AddNewProject({newProjectData,setCurrentProjectData,onFo
     const handleSubmit = (e) => {
         e.preventDefault();
         if(regexPatterns.checkProjectName.test(newProjectData.projectName) === false){
-            setMessageAlert('El nombre debe contener entre 5 y 15 letras')
+            setMessageAlert('El nombre debe contener entre 5 y 15 caracteres')
             setAlertAction(true)
             return
         }

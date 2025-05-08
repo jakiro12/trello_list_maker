@@ -8,6 +8,7 @@ export default function NavBarForOptions({setActionType, typeAction}){
         document.documentElement.style.setProperty('--bg-navbar-color', isActive ? '#000000' : '#ffffff');
         document.documentElement.style.setProperty('--text-navbar-color', isActive ? '#ffffff' : '#121212');
         document.documentElement.style.setProperty('--bg-addproject-color', isActive ? '#282828' : '#F0F2F5');
+        document.documentElement.style.setProperty('--bg-column-info-project', isActive ?  '#000000' : '#D9D9D9' );
     }
     return(
         <nav className="nav-bar_container">
